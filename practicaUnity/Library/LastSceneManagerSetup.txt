@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/practicaCDI.unity
+  isLoaded: 1
+  isActive: 1
