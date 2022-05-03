@@ -35,7 +35,7 @@ public class createSphere : MonoBehaviour
     public UnityEvent OnTargetFound;
     public UnityEvent OnTargetLost;
 
-    public GameObject prefab;
+    
 
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -44,6 +44,9 @@ public class createSphere : MonoBehaviour
     protected TrackableBehaviour.StatusInfo m_PreviousStatusInfo;
     protected TrackableBehaviour.StatusInfo m_NewStatusInfo;
     protected bool m_CallbackReceivedOnce = false;
+
+    public GameObject controller;
+    public ImageTarget carta;
 
     protected virtual void Start()
     {
@@ -179,7 +182,8 @@ public class createSphere : MonoBehaviour
         if (OnTargetFound != null)
             OnTargetFound.Invoke();
 
-        Instantiate(prefab, new Vector3(0, 0, 0), Quaternion.identity);
+        controller.GetComponent<gameController>().aniadirCarta(carta);
+
     }
 
     protected virtual void OnTrackingLost()
