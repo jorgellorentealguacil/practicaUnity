@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VuforiaUnityInfo version="7.0">
+    <TargetSet version="5.0" toolVersion="2.8.0">
+        <CylinderTarget name="papelera" version="3.0" targetId="c444475c8f224955b1761764619a8c21" sideLength="6.400000" topDiameter="6.190000" bottomDiameter="6.190000" sideImage="papelera.Body_scaled.jpg"/>
+    </TargetSet>
+</VuforiaUnityInfo>

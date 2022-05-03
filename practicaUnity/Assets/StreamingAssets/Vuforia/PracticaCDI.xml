@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="cars" size="0.094400 0.094178" />
+    <ImageTarget name="dora" size="0.094400 0.094400" />
+    <ImageTarget name="bob_esponja" size="0.094400 0.094400" />
+    <ImageTarget name="verde" size="0.094400 0.094622" />
+    <CylinderTarget name="papelera" sideLength="6.400000"/>
+  </Tracking>
+</QCARConfig>
