@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AWAXY4L/////AAABmX3MOXL7Y0X2old9Tjjhrx8ehT3/kR2uNJW0Cfi79kWmBRnrTA0t366wGkRTCXd/+Drejc+v1wy39marez+/m2t4XsGAm3FTQWy9aY/efIrTN89uvG0phDUz4B7/Bjedl/1sgIlofZecs7kMI5+bnYhYqSE7ozsroUIBntZTN6CsL7QsN2YNFEZ/cD4apGtSZdEx1itM6UroVcBBbik8PVtKpIPUUgHdK7xX04xP1ayQPAe3nWJ87EPXmdEptRsL/ISORrvdHGkeAhtuwtNMAk+qKUDtYHYXizLEesxFim3Zb7yT/XnE0tidsR/28Gn9hz5ObWWGdfQ0R37neU3U0T+7HavzLYNKGPtsr/ZW2sJe
-    ufoLicenseKey: QWF3RGVJVC8vLy8vQUFBQUtHVXU2WmtqejB1eW54VUVWbDBhNC9RYW5qSEpTWTJ3UkpQMjBvVFdTMHViVzVqVmdnWHFIbGVpZzQ3MUhPSmhWMEhPRkVLKzVnNE1GRHBvZHZPemFXSWdFU2drSGZhSkJVK0tVMGlLd3l5WEVwRzUxZ3U2cXAraFdZcEYvc3FZWENhMUpvMlQxbkZtQTd3S2haQTNyWGd5K0w2UmNhQVd4cm55ZkU3TWR1cDVKTmFrVUdnRVlQQlJZZllLSlpiWXFOTWZZV2pEZGw1Rno0SXlOdERzTTY0UXdhb0ZDTEZVajA5MXRkTEV6Z3M1Tk5WN0N0Rmo4ZjFDM2tjTjNzSnI0VDRIQUl0MWU0Qmk0elZrUTl1MzIvc2o1TnFoeFdZREsxc0F0czVPUHFSZ3dETDhtelZsSTdraGtMRm9MRk9uSUpoU0hLdWFwaU5rMTNaMlZnblZTSXM3TzQvU21oVk9zZ1dzS3doci9nYkg=
+    ufoLicenseKey: QVl5U3Y4My8vLy8vQUFBQUtFUHZWR08zUVV3UHRBV1hZTmMzamg4algwVmVCKzhRaWZ6ZEJHU25DY3dXQVNtczdndGZjaUxxd0JqK25JbXhUSEtRK2QwR1lua2JMdnFjRG5tamgzK0lDWHdkdlV3V0VEOXFKamlmMXZFSU41ajl4dlNsamYyVEVINkhGQ09uUy9UdGNlRGJMb3Evby9sYzZNQmpyQkYrU1RrTWVWeDNCVWxIdERsRWZFdDR4TW5YWGUwaXFEdUZRNHUzd09saFZrVTg1YzBzR2k2S2JzeWQ4S1ZZV203ZUZvL3RyTGJ4aTB1cWVFakFLVTFXUXY5M1RWWCtVSTN6em55WFI3OGFKeGw0c1Zkd2VORFlNNlhrdTJ1OTBWcCtVdmdEK0xwTHV6TjZBRlN1VEhtd0VGYW10TWFjZUJZdzZvRTJ2aGdXa0VzK2xJdXE5N0tqOFFtRU53SDlDQVVCWGYxN3V3THlPeElxS25qMkppZEM=
     delayedInitialization: 0
+    cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
@@ -23,8 +24,8 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
-    version: 9.8.8
-    eulaAcceptedVersions: '{"Values":["8.1","9.8"]}'
+    version: 10.6.3
+    eulaAcceptedVersions: '{"Values":["8.1","9.8","10.6"]}'
   database:
     disableModelExtraction: 0
   shaders:
@@ -38,6 +39,7 @@ MonoBehaviour:
     autoStartTracker: 1
     arcoreRequirement: 1
     autoImportArcore: 1
+    thirdPartyARCoreClientDetected: 0
   playmode:
     mSequencePath: 
     playModeType: 0
