@@ -542,7 +542,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515732521}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
@@ -608,7 +608,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
-  prefab: {fileID: 312876258447654113, guid: 1a88439fc12be43d9af52e962021837a, type: 3}
+  prefab: {fileID: 1013084261006489628, guid: cd878ea7ace2048c3a7e55d1f31dc66b, type: 3}
 --- !u!43 &1546161180
 Mesh:
   m_ObjectHideFlags: 0
