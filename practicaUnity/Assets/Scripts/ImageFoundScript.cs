@@ -7,7 +7,7 @@ using Vuforia;
 public class ImageFoundScript : DefaultObserverEventHandler
 {
     public GameObject controller;
-    public ImageTargetType carta;
+    public GameObject carta;
     
     protected override void OnTrackingFound()
     {
@@ -56,6 +56,7 @@ public class ImageFoundScript : DefaultObserverEventHandler
                 component.enabled = false;
         }
 
+        controller.GetComponent<gameController>().eliminarCarta(carta);
         OnTargetLost?.Invoke();
     }
 }
